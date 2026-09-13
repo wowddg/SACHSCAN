@@ -8,8 +8,6 @@ export default defineConfig({
   },
 
   nitro: isVercel
-    ? {
-        preset: "vercel",
-      }
+    ? { preset: "vercel" }
     : true,
 });
